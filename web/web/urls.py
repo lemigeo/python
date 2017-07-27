@@ -18,5 +18,5 @@ from app import views
 
 urlpatterns = [
     url(r'^$', views.index),
-    url(r'^api/', include('app.urls'))
+    url(r'api/', include('app.urls')),
 ]
