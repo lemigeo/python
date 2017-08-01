@@ -3,6 +3,10 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from rest_framework.decorators import api_view
 
+from django.views.decorators.csrf import ensure_csrf_cookie
+from django.views.generic.base import TemplateView
+from django.utils.decorators import method_decorator
+
 from app.models import User
 from app.APISerializer import UserSerializer
 
