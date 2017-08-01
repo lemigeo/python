@@ -1,4 +1,5 @@
-## Django
+## Web
+### Django
 #### setup sequences
 1. pip install django
 2. create a project
@@ -21,7 +22,7 @@
 + migrate: ./manage.py migrate
 9. create templates directory and create index.html
 
-## Webpack
+### Webpack
 #### setup sequences
 1. install npm packages
 + npm install jquery react react-dom webpack webpack-bundle-tracker babel babel-loader babel-preset-react babel-preset-es2015 webpack-dev-server react-hot-loader --save-dev
