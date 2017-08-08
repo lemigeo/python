@@ -25,7 +25,7 @@
 ### Webpack
 #### setup sequences
 1. install npm packages
-+ npm install jquery react react-dom webpack webpack-bundle-tracker babel babel-loader babel-preset-react babel-preset-es2015 webpack-dev-server react-hot-loader --save-dev
++ npm install jquery react react-dom webpack webpack-bundle-tracker babel babel-core babel-loader babel-preset-react babel-preset-es2015 webpack-dev-server react-hot-loader --save-dev
 2. create webpack.config.js
 3. compile bundle
 + ./node_modules/.bin/webpack --config webpack.config.js
